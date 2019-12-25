@@ -31,7 +31,8 @@ def initialize_with_single_cell(sim_mode, num_of_ue, episode):
     txt = '.txt'
 
     resource_file = open('resource_gaussian_1.txt', mode='rt', encoding='utf-8')
-
+    # anwhere
+    print("adfliasdjlifsadl")
     ue_resource = resource_file.readlines()
     for ue in range(num_of_ue):
         resource = ue_resource[ue].split(' ')
